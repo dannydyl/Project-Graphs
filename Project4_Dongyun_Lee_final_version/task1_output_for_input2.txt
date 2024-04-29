@@ -1,0 +1,24 @@
+Graph 
+0 :  Edge:(0, 1, 2) Edge:(0, 2, 3)
+1 :  Edge:(1, 3, 4) Edge:(1, 6, 2) Edge:(1, 4, 1)
+2 :  Edge:(2, 1, 6) Edge:(2, 4, 4) Edge:(2, 7, 1)
+3 : 
+4 :  Edge:(4, 6, 3) Edge:(4, 7, 1)
+5 :  Edge:(5, 2, 1)
+6 :  Edge:(6, 3, 1) Edge:(6, 7, 2) Edge:(6, 8, 2) Edge:(6, 9, 1)
+7 :  Edge:(7, 5, 1) Edge:(7, 8, 2) Edge:(7, 9, 2)
+8 :  Edge:(8, 9, 1)
+9 : 
+
+Depth First traversal 
+Order of vertices visited :    0   1   3   6   7   5   2   4   8   9
+Visited: 0
+Visited: 1
+Visited: 2
+Visited: 3
+Visited: 6
+Visited: 4
+Visited: 7
+Visited: 8
+Visited: 9
+Visited: 5
